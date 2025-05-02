@@ -1,5 +1,5 @@
 -- Load the UI library
-local UI = -- Or wherever you placed the UI script
+local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/methcooker567/nova-library/refs/heads/main/test1.lua"))() -- Or wherever you placed the UI script
 
 local player = game.Players.LocalPlayer
 local screenGui = Instance.new("ScreenGui")
